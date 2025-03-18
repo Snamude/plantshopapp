@@ -5,19 +5,15 @@ import Products from './Pages/Products'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Cart from './Pages/Cart'
 
-
 function App() {  
 
   return (
     <BrowserRouter>
-    <Navbar />
-    
+    <Navbar />    
     <Routes>
       <Route path="/" element={<Products></Products>}></Route>
-      <Route path="/cart" element={<Cart></Cart>}></Route>
-     
-    </Routes>
-   
+      <Route path="/cart" element={<Cart></Cart>}></Route>    
+    </Routes>  
     </BrowserRouter>
   )
 }
