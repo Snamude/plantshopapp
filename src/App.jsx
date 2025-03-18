@@ -2,18 +2,17 @@
 import React, { useState } from 'react';
 import Product from '../Components/Product'
 import './App.css';
-import AboutUs from './AboutUs';
 
 function App() {
   
  const [products, setProducts] = useState(Data.products)
   
   const handleGetStartedClick = () => {
-    setShowProductList(true);
+    setProducts(true);
   };
 
   const handleHomeClick = () => {
-    setShowProductList(false);
+    setProducts(false);
   };
 
   return (
@@ -35,7 +34,7 @@ function App() {
   <div class="Centered">
     <h1>Green Thumb</h1>
     <p>A world of plants at your fingertips.</p>
-    <a href=""><button class="get-started">Get Started</button></a>
+    <a href=""><button class="get-started" onClick={handleGetStartedClick}>Get Started</button></a>
   </div>
 </div>
 <div class="split right">
