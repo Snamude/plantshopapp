@@ -1,10 +1,11 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Navbar from './Components/Navbar'
-import Products from './Pages/Products'
+//import Products from './Pages/Products'
+import Product from './Components/Product'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Cart from './Pages/Cart'
-import Data from './Data.json'
+
 
 function App() {  
 
@@ -13,7 +14,7 @@ function App() {
     <Navbar />
     
     <Routes>
-      <Route path="/" element={<Products></Products>}></Route>
+      <Route path="/" element={<Product></Product>}></Route>
       <Route path="/cart" element={<Cart></Cart>}></Route>
      
     </Routes>
