@@ -6,7 +6,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 //import { HashRouter, Routes, Route } from 'react-router-dom'
 import Cart from './Pages/Cart'
 
-function App() {  
+const App = () => {  
 
   return (
    <!DOCTYPE html>
