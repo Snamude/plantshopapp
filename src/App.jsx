@@ -4,6 +4,7 @@ import Navbar from './Components/Navbar'
 import Products from './Pages/Products'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Cart from './Pages/Cart'
+import Cart from './Data.json'
 
 function App() {  
 
