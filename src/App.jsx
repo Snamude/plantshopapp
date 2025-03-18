@@ -1,46 +1,25 @@
-import React, { useState } from 'react'
-import Data from '../../Data.json'
-import Product from '../Components/Product'
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import Navbar from './Components/Navbar'
+import Products from './Pages/Products'
+//import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
+import Cart from './Pages/Cart'
 
+function App() {  
 
-const Products = () => {
-    const [products, setProducts] = useState(Data.products)
-
-    return (
-        
-        <div className="mt-2"><center><h4>First Row: Air Purifying Plants</h4></center>
-        <div className="mt-2"><center><h4>Second Row: Aromatic Fragrant 
-      Plants</h4></center>
-        <div className="mt-2"><center><h4>Third Row: Flower Plants</h4></center>
-        
-        <div className="container mt-4">
-            <div className='row row-cols-1 row-cols-md-3 g-4'>
-        
-            {
-                products.map(p => (
-
-                     <Product product = {p}/>
-                ))
-            }
-            
-        </div>
-        </div>
-        </div>
-
-        </div>
-        </div>
-        
-
-    )
-
+  return (
+    <>
+    <HashRouter>
+    <Navbar />
+    <Routes>
+      <Route path="/" element={<Products></Products>}></Route>
+      <Route path="/cart" element={<Cart></Cart>}></Route>
+    </Routes>
+    </HashRouter>
     
-        }
+    </>
+  )
+}
 
-export default Products
-
-
-
-
-
-
-
+export default App
