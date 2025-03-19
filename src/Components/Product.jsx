@@ -49,8 +49,11 @@ const Product = ({ product }) => {
                     </center>
                 </div>
             </div>
+            <br></br>
+            
         </div>
         
+
       
     );
 };

@@ -4,8 +4,6 @@ import './index.css';
 import App from './App';
 import ContextProvider from './Features/ContextProvider.jsx'
 
-
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <ContextProvider>

@@ -1,5 +1,5 @@
 {
- "homepage": "https://snamude.github.io/plantshopapp/"
+  "homepage": "https://snamude.github.io/plantshopapp/",
   "name": "plantshopapp",
   "private": true,
   "version": "0.0.0",
@@ -10,7 +10,7 @@
     "deploy": "gh-pages -d build",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"        
+    "preview": "vite preview"
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
