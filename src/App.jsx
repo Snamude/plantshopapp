@@ -19,7 +19,7 @@ function App() {
       <Route path ="*" element={<App />} />
     </Routes>
     </HashRouter>
-    </React.StrictMode>
+    </React.StrictMode>,
     
     </>
   )
