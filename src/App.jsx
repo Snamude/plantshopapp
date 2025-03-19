@@ -10,13 +10,16 @@ function App() {
 
   return (
     <>
+    <React.StrictMode>
     <HashRouter>
     <Navbar />
     <Routes>
       <Route path="/" element={<Products></Products>}></Route>
       <Route path="/cart" element={<Cart></Cart>}></Route>
+      <Route path ="*" element={<App />} />
     </Routes>
     </HashRouter>
+    </React.StrictMode>
     
     </>
   )
