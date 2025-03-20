@@ -5,9 +5,10 @@ import ContextProvider from './src/Features/ContextProvider.jsx'
 
 ReactDom.createRoot(document.getElementById('root')).render(
   
-  <React.StrictMode>
     <ContextProvider>
+
     <App />
+  
   </ContextProvider>
-  </React.StrictMode>,
+    
   );
