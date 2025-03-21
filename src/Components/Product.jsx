@@ -1,6 +1,6 @@
 import React, { useContext, useState } from "react";
 import { CartContext } from "../Features/ContextProvider";
-//import saleicon from '../public/saleicon.jpg';
+
 
 const Product = ({ product }) => {
     const { dispatch, cart } = useContext(CartContext);
