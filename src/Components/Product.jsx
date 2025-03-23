@@ -15,7 +15,7 @@ const Product = ({ product }) => {
         <div className="col mt-6">
             <div className="card">
                 <div className="card-body">  
-                <img src="/saleicon.jpg"
+                <img src="public/saleicon.jpg"
                             height={80}
                             className="p-3 d-flex mt-220"
                             alt="..."
