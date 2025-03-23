@@ -2,7 +2,7 @@
 {
     "products": [ 
        
-  
+
           {  
             "id": 1,     
             "title": "Aloe Vera Plant",     
@@ -30,8 +30,7 @@
           }
              
       ,
-      
-     
+    
           {
             "id": 4,
             "title": "Rosemary Plant",     
@@ -58,8 +57,7 @@
         }
      
       ,
-      
-     
+       
           {
             "id": 7,
             "title": "Sunflower Plant",     
