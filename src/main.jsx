@@ -9,6 +9,6 @@ ReactDom.createRoot(document.getElementById('root')).render(
 
     <App />
   
-  </ContextProvider>
+  </ContextProvider>,
     
   );
