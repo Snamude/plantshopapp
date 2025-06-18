@@ -22,4 +22,4 @@ import './Conference.css';
   )
 }
 
-export default App
+export default App;

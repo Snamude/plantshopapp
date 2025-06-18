@@ -1,4 +1,4 @@
-import React from 'react'
+//import React from 'react'
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import ReactDom from 'react-dom/client'
@@ -9,11 +9,11 @@ import './Conference.css'
 
 createRoot(document.getElementById('root')).render(
   
-    <ContextProvider>
+  <ContextProvider>
 
-    <App />
-  
-  </ContextProvider>
-    
+  <App />
+
+</ContextProvider>
+     
   );
   
