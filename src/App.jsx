@@ -6,9 +6,7 @@ import Products from './Pages/Products';
 import { HashRouter, Routes, Route } from 'react-router-dom';
 import Cart from './Pages/Cart';
 import './Conference.css';
-import '../Data.json';
-
-
+ 
 //const App = () => {  
   function App() { 
   return (
