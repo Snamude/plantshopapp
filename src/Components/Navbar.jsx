@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { BsCart } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
-import { CartContext } from '../Features/ContextProvider';
+import { CartContext } from '../Features/ContextProvider.jsx';
 
 
 const Navbar = () => {

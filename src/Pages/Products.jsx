@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Data from '../../Data.json'
-import Product from '../Components/Product'
+import Product from '../Components/Product.jsx'
 
 const Products = () => {
     const [products, setProducts] = useState(Data.products)

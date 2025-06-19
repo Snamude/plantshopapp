@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
-import { CartContext } from '../Features/ContextProvider'
-import CartProduct from '../Components/CartProduct'
-import { totalItem, totalPrice } from '../Features/CartReducer'
+import { CartContext } from '../Features/ContextProvider.jsx'
+import CartProduct from '../Components/CartProduct.jsx'
+import { totalItem, totalPrice } from '../Features/CartReducer.jsx'
 import { Link } from 'react-router-dom';
 
 export const Cart = () => {

@@ -1,5 +1,5 @@
 import React, { useContext, useState } from "react";
-import { CartContext } from "../Features/ContextProvider";
+import { CartContext } from "../Features/ContextProvider.jsx";
 import saleicon from '../Components/saleicon.jpg';
 
 const Product = ({ product }) => {
