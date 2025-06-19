@@ -1,6 +1,6 @@
 import React, { useContext, useState } from "react";
 import { CartContext } from "../Features/ContextProvider";
-
+import saleicon from '../Components/saleicon.jpg';
 
 const Product = ({ product }) => {
     const { dispatch, cart } = useContext(CartContext);
@@ -15,7 +15,7 @@ const Product = ({ product }) => {
         <div className="col mt-6">
             <div className="card">
                 <div className="card-body">  
-                <img src="public/saleicon.jpg"
+                <img src={saleicon} 
                             height={80}
                             className="p-3 d-flex mt-220"
                             alt="..."
